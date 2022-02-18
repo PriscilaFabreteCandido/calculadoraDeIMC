@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;  
+    max-width: 600px;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+    
+}
+body{
+    background-color: #F73759;
+    padding-top: 30px;
+}
+.flex{
+    
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: 2rem;
+    text-align: center;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+#form div{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.conteiner-2{
+    background-color: #00FA9A;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px 20px;}
+
+.class-resultado, .bad, .orange, .amarelo, .vermelho-1, .vermelho-2, .vermelho-3{
+    background-color: #00FF00;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.bad {
+    background-color: red;
+}
+.vermelho-3{
+    background-color: #da3309;
+}
+.vermelho-1{
+    background-color: #FF8C00;
+}
+.vermelho-2{
+    background-color: #FF4500	;
+}
+.amarelo{
+    background-color: #FFFF00;
+}
+.orange{
+    background-color: #FFA500;
+}
+input:focus{
+    outline: #F73759 solid 2px;
+}
+label{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#form{
+    display: block;
+}
+input{
+    padding: 10px;
+}
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+
+}
+button{
+    border: 3px solid #4CAF50;
+    background-color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+#titulo{
+    padding-top: 20px;
+}
+
+@media(max-width: 960px){
+    html{
+        font-size: 90%;
+    }
+    
+    
+}
+
+@media(max-width: 620px){
+    html{
+        font-size: 85%;
+    }
+    .conteiner-2 {
+        width: 90%;
+    }
+
+}
+@media(max-width: 500px){
+    html{
+        font-size: 80%;
+        
+       
+    }
+    .flex{
+        display: block;
+        flex-wrap: wrap;
+    }
+    
+}
